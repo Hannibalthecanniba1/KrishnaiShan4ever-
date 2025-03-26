@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>This one is for my dumb KRISHNAII</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+</head>
+
+<body>
+ 
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*THE CODE FOR KRISNNAI THE DUMB</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Hey Dumb!<br />
+			Do you remember the day we first met lol?<br />
+			<span class="comments">// 26th of march 2024,it was tuesday, On the instagram haha i replied to your story lol? "tf are you married" "SINDOOR" kabhi socha tha we'll get soo close? Its been 1 year and counting</span><br />
+			and since that day a spark begun between us, krishnai;<br />
+			<span class="comments">// Your face Your Voice Your Words Your BakBak And You Gaaliya Ofc! I LOVE LISTENING TO YOU AND YOU CHAPPAR CHAPPAR ITS MY FAV THING. SO YOURE PERFECT JANU hahaha</span><br />
+			 Krishu your everything got imprinted in my Soul, I feel connected to you, I love everything about you dumbass every single thing;<br />
+			 And as the time went on;<br />
+			Our Bond grew stronger and stronger day by day between us;<br />
+			Your presence is all i need, i need you in my life like Jaadu needs dhoop. krishnai my life always felt like an unanswered question, a string of days and nights, waiting something to happen, THEN YOU HAPPENED YOU CAME AND MADE MY LIFE BETTER. and im never going to leave you alone, im stuck with you, tumhari gaaliya sunna chahta hu and i want us to listen musics together and yes raatt bhar jagna chahta hu and i wanna watch every movie wiith you and i will gon annoy and love you till the rest of my life krishu, So are you gon stay with me till the end?;<br />
+			I just wanna spend rest of my life with you krishnai;<br />
+			There have been fights, kalesh and shit ;<br />
+			<span class="comments">// And maybe there will be more.</span><br />
+			But I promise you i will stay by your side through your ups and downs and im always with you and yeeah our bond will always grow back Stronger akhir we both are "CRAZYY" right? hahaha ;<br />
+				
+			<br>
+			<br>
+			All I want to say is:<br />
+			KRISHNAI WE ARE CONNECTED!
+			wherever im, i feel you with me<br/>
+			  <!--Tab to edit-->
+			</br/>
+			you are what makes me real
+			 I will lovee you foreverr krishnai;<br />
+			<br>
+			<br>
+			Now If you wanna connect us "virtually" you can touch the heart below<br />
+			<br>
+			<span id="heartspan">
+			<a href="image.jpg"><i class="fas fa-heart" id="icon"></i></a>
+			</span>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					शान-क्रिष्णाई FOREVER
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					I LOVE YOU SO MUCH<br/>
+					<div class="signature">- SHAN</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2024, 2, 26);
+together.setHours(22);
+together.setMinutes(02);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+</body>
+</html>
